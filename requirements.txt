@@ -1,5 +1,9 @@
 click==7.1.2
 numpy==1.19.1
 opencv-contrib-python==4.2.0.34
+pandas==1.1.0
 Pillow==7.2.0
 pytesseract==0.3.4
+python-dateutil==2.8.1
+pytz==2020.1
+six==1.15.0

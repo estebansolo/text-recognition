@@ -38,9 +38,10 @@ def ocr(image, output, file_format, min_conf, line, distance):
     word_detection = TextDetection(
         image,
         output,
+        line=line,
+        word_distance=distance,
         file_format=file_format,
         min_confidence=min_conf,
-        line=line, distance=distance
     )
     
     word_detection.detect()
